@@ -92,6 +92,23 @@
 // Locked Out
 // ```
 
+// 4.
+let secretWord="secret"
+secretWord=prompt("Enter a word");
+// let anotherWord="secret"
+let anotherWord=prompt("Enter another word");
+// let secret=prompt("Enter a word");
+// let another=prompt("Enter another word");
+if(secretWord==anotherWord || secretWord==secretWord || anotherWord==secretWord){
+    console.log("You got in..but we don't know how");
+} else if(secretWord=anotherWord && secretWord != secretWord && anotherWord != secretWord){
+    console.log("You got in...but only because your words matched")
+}
+
+
+
+
+
 // ### Challenge:
 // Ask the user to enter a day of the week. Print the corresponding Spanish word. If they do not input a day of the week print "That is not a day of the week in English."
 

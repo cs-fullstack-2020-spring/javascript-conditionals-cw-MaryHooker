@@ -93,25 +93,28 @@
 // ```
 
 // 4.
-let secretWord="secret";
-let secret=prompt("Enter a word");
-let another=prompt("Enter another word");
+// let secretWord="secret";
+// let secret=prompt("Enter a word");
+// let another=prompt("Enter another word");
 
-if(secret==another&&secret!=secretWord && another==secretWord){
-    console.log("You got in...but we dont know how")
-} else if(secret==another&&secret==secretWord && another!=secretWord){
-    console.log("You got in...but we dont know how")
-}  else if(secret==another && secret != secretWord && another != secretWord){
-    console.log("You got in...but only because your words matched")
-} else if(secret==secretWord && another !=secretWord){
-    console.log("You got in...but only because one of your words matched the secret word")
-} else if(secret != secretWord && another==secretWord){
-    console.log("You got in...but only because one of your words matched the secret word")
-} else if(secret==another && secret==secretWord && another==secretWord){
-    console.log("You got in!")
-} else{
-    console.log("Locked out")
-}
+// if(secret==another&&secret!=secretWord && another==secretWord){
+//     console.log("You got in...but we dont know how")
+// } else if(secret==another&&secret==secretWord && another!=secretWord){
+//     console.log("You got in...but we dont know how")
+// }  else if(secret==another && secret != secretWord && another != secretWord){
+//     console.log("You got in...but only because your words matched")
+// } else if(secret==secretWord && another !=secretWord){
+//     console.log("You got in...but only because one of your words matched the secret word")
+// } else if(secret != secretWord && another==secretWord){
+//     console.log("You got in...but only because one of your words matched the secret word")
+// } else if(secret==another && secret==secretWord && another==secretWord){
+//     console.log("You got in!")
+// } else{
+//     console.log("Locked out")
+// }
+
+
+
 // let anotherWord="secret"
 // let anotherWord=prompt("Enter another word");
 // // let secret=prompt("Enter a word");

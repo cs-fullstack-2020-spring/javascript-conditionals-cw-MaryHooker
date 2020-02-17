@@ -93,17 +93,24 @@
 // ```
 
 // 4.
-let secretWord="secret"
-secretWord=prompt("Enter a word");
-// let anotherWord="secret"
-let anotherWord=prompt("Enter another word");
-// let secret=prompt("Enter a word");
-// let another=prompt("Enter another word");
-if(secretWord==anotherWord || secretWord==secretWord || anotherWord==secretWord){
-    console.log("You got in..but we don't know how");
-} else if(secretWord=anotherWord && secretWord != secretWord && anotherWord != secretWord){
+let secretWord="secret";
+// let matched=secret+another
+let secret=prompt("Enter a word");
+let another=prompt("Enter another word");
+if(secret==secretWord || another==secretWord){
+    console.log("You got in...but we dont know how")
+} else if(secret==another || secret != secretWord || matched != secretWord){
     console.log("You got in...but only because your words matched")
 }
+// let anotherWord="secret"
+// let anotherWord=prompt("Enter another word");
+// // let secret=prompt("Enter a word");
+// // let another=prompt("Enter another word");
+// if(secretWord==anotherWord || secretWord==secretWord || anotherWord==secretWord){
+//     console.log("You got in..but we don't know how");
+// } else if(secretWord=anotherWord && secretWord != secretWord && anotherWord != secretWord){
+//     console.log("You got in...but only because your words matched")
+// }
 
 
 

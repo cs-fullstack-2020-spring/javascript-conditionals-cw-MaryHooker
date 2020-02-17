@@ -40,14 +40,10 @@
 // 2.
 // let number=prompt("Enter a number");
 // if(number >=1){
-//     console.log(number + " is positive")
+//     console.log(number + " is positive");
 // } else if(number<=-1){
-//     console.log(number + " is negative")
+//     console.log(number + " is negative");
 // }
-
-
-
-
 
 
 
@@ -61,7 +57,14 @@
 // The sum of [FIRST NUMBER] and [SECOND NUMBER] is odd.
 // ```
 
-
+// 3.
+// let number=prompt("Enter a number");
+// let anotherNumber=prompt("Enter another number");
+// if(parseInt(number + anotherNumber) % 2==0){
+//     alert("The sum of " + number + " and " + anotherNumber + " is even.");
+// } else{
+//     alert("The sum of " + number + " and " + anotherNumber + " is odd.")
+// }
 
 
 
